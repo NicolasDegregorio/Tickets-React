@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## .env.development
+REACT_APP_AXIOS_URL=url servidor backend
+REACT_APP_URL=url servidor local
+MAP_KEY="google maps key"
+
 ## Available Scripts
 
 In the project directory, you can run:
