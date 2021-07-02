@@ -171,7 +171,7 @@ const Maps = (props) => {
 }
 
 export default GoogleApiWrapper({
-  apiKey: (process.env.REACT_APP_AXIOS_URL),
+  apiKey: (process.env.MAP_KEY),
   libraries: ["places"],
   language:'es-ES'
 })(Maps)
