@@ -30,6 +30,6 @@ const MapInstitution = (props) => {
 }
 
 export default GoogleApiWrapper({
-    apiKey: ('AIzaSyDAwZoCkxg0z2pKbKsjZhBM_NX0S8H44vg'),
+    apiKey: (''),
     language:'es-ES'
   })(MapInstitution)
